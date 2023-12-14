@@ -1,5 +1,5 @@
 import heroImg from '../assets/hero.svg';
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 const Hero = () => {
   return (
     <div className='bg-emerald-100 py-24'>
@@ -23,8 +23,8 @@ const Hero = () => {
                     <a href='https://www.linkedin.com/in/abdullah-adeoba-3039689b'>
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='#'>
-              <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            <a href='mailto:abdullah.adeoba@gmail.com'>
+              <FaEnvelope className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
                 </div>
             </article>
